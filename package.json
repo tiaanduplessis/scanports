@@ -1,5 +1,5 @@
 {
-  "name": "scanports",
+  "name": "@tiaanduplessis/scanports",
   "version": "1.0.0",
   "description": "Modest port scanner",
   "main": "index.js",

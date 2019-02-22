@@ -1,16 +1,16 @@
 
-# scanports
-[![package version](https://img.shields.io/npm/v/scanports.svg?style=flat-square)](https://npmjs.org/package/scanports)
-[![package downloads](https://img.shields.io/npm/dm/scanports.svg?style=flat-square)](https://npmjs.org/package/scanports)
+# @tiaanduplessis/scanports
+[![package version](https://img.shields.io/npm/v/@tiaanduplessis/scanports.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/scanports)
+[![package downloads](https://img.shields.io/npm/dm/@tiaanduplessis/scanports.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/scanports)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![package license](https://img.shields.io/npm/l/scanports.svg?style=flat-square)](https://npmjs.org/package/scanports)
+[![package license](https://img.shields.io/npm/l/@tiaanduplessis/scanports.svg?style=flat-square)](https://npmjs.org/package/@tiaanduplessis/scanports)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 > Modest port scanner
 
 ## Table of Contents
 
-- [scanports](#scanports)
+- [@tiaanduplessis/scanports](#tiaanduplessis-scanports)
   - [Table of Contents](#table-of-contents)
   - [Install](#install)
   - [Usage](#usage)
@@ -22,15 +22,15 @@
 This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). 
 
 ```sh
-$ npm install scanports
+$ npm install @tiaanduplessis/scanports
 $ # OR
-$ yarn add scanports
+$ yarn add @tiaanduplessis/scanports
 ```
 
 ## Usage
 
 ```js
-const scanPorts = require('./')
+const scanPorts = require('@tiaanduplessis/scanports')
 
 scanPorts({ host: 'github.com', timeout: 5000 })
   .then(data => {
