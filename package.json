@@ -9,6 +9,11 @@
   "scripts": {
     "lint": "standard --fix"
   },
+  "keywords": [
+    "scan",
+    "ports",
+    "port-scanner"
+  ],
   "bin": "cli.js",
   "devDependencies": {
     "standard": "^12.0.1"
